@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+ 
+<html lang="es">
+ 
+<head>
+<title>Titulo de la web</title>
+<meta charset="utf-8" />
+<link rel="stylesheet" href="estilos.css" />
+<link rel="shortcut icon" href="/favicon.ico" />
+<link rel="alternate" title="Pozolería RSS" type="application/rss+xml" href="/feed.rss" />
+</head>
+ 
+<body>
+    <header>
+       <h1>Mi sitio web</h1>
+       <p>Mi sitio web creado en html5</p>
+    </header>
+    <section>
+       <article>
+           <h2>Titilo de contenido<h2>
+           <p> Contenido (ademas de imagenes, citas, videos etc.) </p>
+       </article>
+    </section>
+
+    <table width=100> 
+<tr> 
+   <td bgcolor="#dddddd" id="celda1" onmouseover="cambiar_color_over(this)" onmouseout="cambiar_color_out(this)">Casilla numero 1</td> 
+</tr> 
+<tr> 
+   <td bgcolor="#dddddd" id="celda2" onmouseover="cambiar_color_over(this)" onmouseout="cambiar_color_out(this)">Casilla numero 2</td> 
+</tr> 
+ 
+<tr> 
+   <td bgcolor="#dddddd" id="celda10" onmouseover="cambiar_color_over(this)" onmouseout="cambiar_color_out(this)">Casilla numero 10</td> 
+</tr> 
+</table>
+<script type="text/javascript">
+function cambiar_color_over(celda){ 
+   celda.style.backgroundColor="#66ff33" 
+} 
+function cambiar_color_out(celda){ 
+   celda.style.backgroundColor="#dddddd" 
+} 
+</script>
+    <aside>
+       <h3>Titulo de contenido</h3>
+           <p>contenido</p>
+    </aside>
+
+    <footer>
+        Creado por mi el 2011
+    </footer>
+</body>
+</html>
